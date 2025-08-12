@@ -58,23 +58,23 @@ There are three styles to select from:
 
 ;;;; Colors
   ;; name        default     256         16
-  ((bg           '("#000000" "#000000"   "black"))
-   (base0        '("#101010" "#101010"   "black"))
+  ((bg           '("#0F1516" "#0F1516"   "black"))
+   (base0        '("#0F1516" "#0F1516"   "black"))
    (base1        '("#232323" "#232323"   "brightblack"))
    (base2        '("#182325" "#182325"   "brightblack"))
-   (base3        '("#708b8d" "#708b8d"   "brightblack"))
-   (base4        '("#4d4d4d" "#4d4d4d"   "brightblack"))
-   (base5        '("#9f9f9f" "#9f9f9f"   "brightblack"))
-   (base6        '("#b0b0b0" "#b0b0b0"   "white"))
-   (base7        '("#cecece" "#cecece"   "white"))
-   (base8        '("#ffffff" "#ffffff"   "white"))
-   (fg           '("#cecece" "#cecece"   "white"))
-   (fg-alt       '("#7d7d7d" "#7d7d7d"   "brightblack"))
+   (base3        '("#708B8D" "#708B8D"   "brightblack"))
+   (base4        '("#262626" "#262626"   "brightblack"))
+   (base5        '("#5C5C5C" "#5C5C5C"   "brightblack"))
+   (base6        '("#9F9F9F" "#9F9F9F"   "white"))
+   (base7        '("#CECECE" "#CECECE"   "white"))
+   (base8        '("#FFFFFF" "#FFFFFF"   "white"))
+   (fg           '("#CECECE" "#CECECE"   "white"))
+   (fg-alt       '("#7D7D7D" "#7D7D7D"   "brightblack"))
    (bg-alt       base0)
 
    (grey       base3)
 
-   (red          '("#d13e23" "#d13e23"   "red"))
+   (red          '("#D13E23" "#D13E23"   "red"))
    (green        '("#95CB82" "#95CB82"   "green"))
    (yellow       '("#CD974B" "#CD974B"   "yellow"))
    (dark-blue    '("#71AED7" "#71AED7"   "blue"))
@@ -86,7 +86,6 @@ There are three styles to select from:
    (violet       '("#CC8BC9" "#CC8BC9"   "brightmagenta"))
    (cyan         '("#47BEA9" "#47BEA9"   "brightcyan"))
    (blue         '("#71AED7" "#71AED7"   "brightblue"))
-
 
    (yellow-highlight (doom-blend light-yellow bg 0.2))
    (bg-dark base2)
