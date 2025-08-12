@@ -1,4 +1,4 @@
-;;; doom-alabaster-theme.el --- A light theme with little syntax highlighting -*- lexical-binding: t; no-byte-compile: t -*-
+;;; doom-alabaster-theme.el --- A dark theme with little syntax highlighting -*- lexical-binding: t; no-byte-compile: t -*-
 ;; Copyright (C) 2022 Alexander Graul
 ;;
 ;; Author: Alexander Graul <mail@agraul.de>
@@ -54,7 +54,7 @@ There are three styles to select from:
   :set #'doom-alabaster--setopt)
 
 (def-doom-theme doom-alabaster
-  "A light theme with little highlighting"
+  "A dark theme with little highlighting"
 
 ;;;; Colors
   ;; name        default     256         16
@@ -112,7 +112,7 @@ There are three styles to select from:
    (strings        green)
    (variables      fg)
    (numbers        magenta)
-   (region         base2)
+   (region         grey)
    (error          red)
    (warning        red)
    (success        green)
@@ -127,6 +127,7 @@ There are three styles to select from:
 ;;;; Base theme face overrides
   ((line-number                           :background bg-alt)
    (minibuffer-prompt                     :foreground dark-blue)
+   (cursor                                :background "#FFFFFF")
    (mode-line                             :foreground modeline-fg :background modeline-bg)
    (mode-line-emphasis                    :inherit 'mode-line :bold bold)
    (mode-line-inactive                    :foreground modeline-fg :background modeline-bg-inactive)
