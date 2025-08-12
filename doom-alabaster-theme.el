@@ -58,8 +58,8 @@ There are three styles to select from:
 
 ;;;; Colors
   ;; name        default     256         16
-  ((bg           '("#0F1516" "#0F1516"   "black"))
-   (base0        '("#0F1516" "#0F1516"   "black"))
+  ((bg           '("#000000" "#000000"   "black"))
+   (base0        '("#000000" "#000000"   "black"))
    (base1        '("#232323" "#232323"   "brightblack"))
    (base2        '("#182325" "#182325"   "brightblack"))
    (base3        '("#708B8D" "#708B8D"   "brightblack"))
@@ -121,7 +121,7 @@ There are three styles to select from:
    (vc-deleted     red)
 
    (modeline-fg fg-alt)
-   (modeline-bg bg-dark)
+   (modeline-bg bg)
    (modeline-bg-inactive base0))
 
 ;;;; Base theme face overrides
