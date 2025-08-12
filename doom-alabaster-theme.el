@@ -69,7 +69,7 @@ There are three styles to select from:
    (base7        '("#CECECE" "#CECECE"   "white"))
    (base8        '("#FFFFFF" "#FFFFFF"   "white"))
    (fg           '("#F0F0F0" "#F0F0F0"   "white"))
-   (grey-light   '("#1A1A1A" "#1A1A1A"   "white"))
+   (grey-light   '("#5C5C5C" "#5C5C5C"   "white"))
    (fg-alt       '("#7D7D7D" "#7D7D7D"   "brightblack"))
    (bg-alt       base0)
 
@@ -102,7 +102,7 @@ There are three styles to select from:
                     ((eq doom-alabaster-comment-style nil)
                      fg)
                     ;; 'original == default
-                    (t light-yellow)))
+                    (t grey)))
    (doc-comments   green)
    (constants      magenta)
    (functions      dark-blue)
