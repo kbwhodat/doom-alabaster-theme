@@ -69,6 +69,7 @@ There are three styles to select from:
    (base7        '("#CECECE" "#CECECE"   "white"))
    (base8        '("#FFFFFF" "#FFFFFF"   "white"))
    (fg           '("#F0F0F0" "#F0F0F0"   "white"))
+   (grey-light   '("#1A1A1A" "#1A1A1A"   "white"))
    (fg-alt       '("#7D7D7D" "#7D7D7D"   "brightblack"))
    (bg-alt       base0)
 
@@ -111,6 +112,7 @@ There are three styles to select from:
    (type           dark-blue)
    (strings        green)
    (variables      fg)
+   (region         grey-light)
    (numbers        magenta)
    (error          red)
    (warning        red)
@@ -126,7 +128,6 @@ There are three styles to select from:
 ;;;; Base theme face overrides
   ((line-number                           :background bg-alt)
    (minibuffer-prompt                     :foreground dark-blue)
-   (region                                :background "#1A1A1A")
    (cursor                                :background "#FFFFFF")
    (mode-line                             :foreground modeline-fg :background modeline-bg)
    (mode-line-emphasis                    :inherit 'mode-line :bold bold)
