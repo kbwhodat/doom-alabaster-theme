@@ -112,7 +112,6 @@ There are three styles to select from:
    (strings        green)
    (variables      fg)
    (numbers        magenta)
-   (region         :background "#1A1A1A")
    (error          red)
    (warning        red)
    (success        green)
@@ -127,6 +126,7 @@ There are three styles to select from:
 ;;;; Base theme face overrides
   ((line-number                           :background bg-alt)
    (minibuffer-prompt                     :foreground dark-blue)
+   (region                                :background "#1A1A1A")
    (cursor                                :background "#FFFFFF")
    (mode-line                             :foreground modeline-fg :background modeline-bg)
    (mode-line-emphasis                    :inherit 'mode-line :bold bold)
