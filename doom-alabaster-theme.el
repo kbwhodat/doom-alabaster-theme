@@ -68,7 +68,7 @@ There are three styles to select from:
    (base6        '("#9F9F9F" "#9F9F9F"   "white"))
    (base7        '("#CECECE" "#CECECE"   "white"))
    (base8        '("#FFFFFF" "#FFFFFF"   "white"))
-   (fg           '("#CECECE" "#CECECE"   "white"))
+   (fg           '("#F0F0F0" "#F0F0F0"   "white"))
    (fg-alt       '("#7D7D7D" "#7D7D7D"   "brightblack"))
    (bg-alt       base0)
 
@@ -112,7 +112,7 @@ There are three styles to select from:
    (strings        green)
    (variables      fg)
    (numbers        magenta)
-   (region         grey)
+   (region         :background "#1A1A1A")
    (error          red)
    (warning        red)
    (success        green)
